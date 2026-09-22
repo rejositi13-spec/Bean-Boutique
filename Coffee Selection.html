@@ -1,70 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        
-        <title>
-            <link rel="stylesheet" href="style.CSS">
-            Bean Boutique Coffee Selection
-        </title>
-    </haed>
-    <body>
-        <header>
-            <h1>Coffee selection</h1>
-            <div class="coffee-search">
-             <input type="search" id="search" placeholder="search for coffee" onkeyup="searchcoffee">   
-            </div>
-        
-     <nav>
-        <ul>
-        <a href="home page.html">home page</a><br>
-        <a href="brewing Equipment.html">brewing Equipment</a><br>
-        <a href="Events and workshop.html">Events and workshop</a><br>
-        <a href="Shopping Cart.html">Shopping Cart</a><br>
-        <a href="special offers and subscriptions.html/">special offers and subscriptions</a><br>
-        </ul>
-     </nav>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Selection - Brew Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Brew Haven</div>
+        <nav>
+            <ul>
+                <li><a href="home page.html">Home</a></li>
+                <li><a class="active" href="Coffee Selection.html">Coffee Selection</a></li>
+                <li><a href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="events.html">Events & Workshops</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <h1><i class="fa-solid fa-mug-hot"></i>Coffee Selection</h1>
-    <p>Choose your favourite coffee blend</p>
-    <section>
-        <h1>our coffee colllection</h1>
-        <img src="arabic.jpeg" alt="arabic coffee" width="400" height="200">
-       <h2>classic arabic</h2>
-        <p>200.00</p>
-        <p>Rich and smooth with a pleasant aroma</p>
-        <button>Add to cart</button>
+    <main>
+        <section class="coffee-selection">
+            <h1>Our Coffee Collection</h1>
+            <p>Explore our range of unique coffee blends</p>
+        </div class=search-box>
+        <label for="coffeesearch">Search for coffee:</label>
+        <input type="search" id="coffee" placeholder="Type coffee name here">
     </div>
-        <div>
-        <img src="espresso.jpeg" alt="espresso coffee" width="400" height="200">
-        <h3>strong Epresso</h3>
-        <p>300.00</p>
-        <p>strong coffee wuth a rich and powerful flavour</p>
-        <button>Add to cart</button>
-        </div>
-        <div>
-        class="product">
-        <img src="Mocha.jpeg" alt="Mocha coffee" width="200" height="200">
-        <h3>Chocolate Mocha</h3>
-        <p>500.00</p>
-        <p>A delicious combination of coffee and chocolate</p>
-        <button>Add to cart</button>
-        </div>
-        <div>
-            class="product">
-            <img src="Vanilla.jpeg" alt="vanilla coffee" width="400" height="200">
-            <h3>Vanilla Blend</h3>
-            <p>400.00</p>
-            <p>A smooth coffee with a sweet vanilla flavour</p>
-            <button>Add to cart</button>
-        </div>
-        </section>
+    <div class="cards">
+        <article class="card">
+            <img src="Chocolate 2.jpeg" alt="chocolate coffee made of the beans" width="300" height="200">
+            <img src="chocolate 1.jpeg" alt="chocolate coffee made of the beans" width="300" height="200">
+            <div class="card-content">
+                <h2>chocolate sunrise blend</h2>
+                <p>A smooth coffee with chocolate and nutty flavours.</p>
+                <p> class="price">Price: MWK 12,000</p>
+                <a class="button" href="cart.html"> Add to Basket</a>
+            </div> 
+        </article>
+        <article class="card">
+            <img src="vanilla 2.jpeg" alt="fresh vanilla coffee" width="300" height="200">
+            <img src="Vanilla.jpeg" alt="fresh vanilla coffee" width="300" height="200">
+            <div class="card-content">
+                <h2>Vanilla Delight</h2>
+                <p>A creamy coffee with vanilla notes.</p>
+                <p> class="price">Price: MWK 15,000</p>
+                <a class="button" href="cart.html"> Add to Basket</a>
+            </div>
+            <article class="card">
+                <img src="Mocha Coffee 2.jpeg" alt="fresh mocha coffee" width="300" height="200">
+                <img src="Mocha.jpeg" alt="fresh mocha coffee" width="300" height="200">
+                <div class="card-content">
+                    <h2>Mocha Delight</h2>
+                    <p>A rich and indulgent coffee with chocolate and hazelnut notes.</p>
+                    <p> class="price">Price: MWK 18,000</p>
+                    <a class="button" href="cart.html"> Add to Basket</a>
+                </div>
+                <article class="card">
+                    <img src="Espresso 2.jpeg" alt="fresh espresso coffee" width="300" height="200">
+                    <img src="expresso.jpeg" alt="fresh espresso coffee" width="300" height="200">
+                    <div class="card-content">
+                        <h2>Espresso Intenso</h2>
+                        <p>A bold and intense coffee with a strong flavour.</p>
+                        <p> class="price">Price: MWK 10,000</p>
+                        <a class="button" href="cart.html"> Add to Basket</a>
+                    </div>
+        </article>
+    </div>
+    </section>
     </main>
-        <footer>
-            <p>&copy; 2026 Bean Boutique</p>
-        </footer>
-    <body>
-            </body>
-            </html>
-        
+    <footer>
+        <p>&copy; 2026 Brew Haven Coffee Shop</p>
+    </footer>
+</body>
+</html>

@@ -1,58 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Bean Boutique Brewing Equipment</title>
-        <link rel="stylesheet" href="style.CSS">
-        </head>
-        <body>
-            <header>
-                <h1>Brewing Equipment</h1>
-                <p>Equipment for the perfect cup</p>
-            </header>
-            <nav>
-                <a href="Home.html">Home</a>
-        <a href="home page.html">home page</a><br>
-        <a href="Coffee selection.html">Coffee selection</a><br>
-        <a href="Events and Workshop.html">Events and workshop</a><br>
-        <a href="Shopping Cart.html">Shopping Cart</a><br>
-        <a href="special offers.html">special offers</a><br>
-    </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewing Equipment - Brew Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Brew Haven</div>
+        <nav>
+            <ul>
+                <li><a href="home page.html">Home</a></li>
+                <li><a href="Coffee Selection.html">Coffee Selection</a></li>
+                <li><a class="active" href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a href="events.html">Events & Workshops</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-    <section>
-        <h2>our Brewing Equipment</h2>
-        <div class="products">
-            <img src="brewing 1.jpeg" alt="brewing coffee" height="300" length="200">
-            <h3>Espresso Machine</h3>
-            <p>k1.500.000</p>
-            <p>A machine designed to make delicious espresso coffee</p>
-            <h4>Usage Tip</h4>
-            <p>use freshly ground coffee and clean the machine after use</p>
-            <button>Add to cart</button>
+        <section class="brewing-equipment">
+            <h1>Our Brewing Equipment</h1>
+            <p>choose from our range of high-quality brewing tools</p>
+            <p>choose from our range of useful coffee brewing equipment</p>
+            <div class="cards">
+                <article class="card">
+                    <img src="brewing 1.jpeg" alt="coffee brewing equipment" width="300" height="200">
+                    <img src="brewing 2.jpeg" alt="coffee brewing equipment" width="300" height="200">
+                    <div class="card-content">
+                        <h2>Pour-over brewer machine</h2>
+                        <p>A simple brewing tool that gives you control over the amount of water used</p>
+                        <h3>usage Tips</h3>
+                        <p>use medium-ground coffee and pour hotwater slowly over the coffee </p>
+                        <p class="price">Price: MWK 25,000</p>
+                        <a class="button" href="cart.html">Add to Basket</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="french press.jpeg" alt="french press" width="300" height="200">
+                    <div class="card-content">
+                        <h2>French press</h2>
+                        <p> A simple coffee maker suitable for preparing rich and full-bodied coffee</p>
+                        <h3>usage Tips</h3>
+                        <p> Add coarse coffee grounds and pour hot water over.<br> Stir and let it steep for about 4 minutes before pressing the plunger down slowly</p>
+                        </p>
+                        <a class="button" href="cart.html">Add to Basket</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="coffee grinder.jpeg" alt="coffee grinder" width="300" height="200">
+                    <div class="card-content">
+                        <h2>Coffee Grinder</h2>
+                        <p>A grinder helps prepare fresh coffee beans before brewing</p>
+                        <h3>usage Tips</h3>
+                        <p>Grind the coffee beans immediately before brewing for better freshness</p>
+                        <p class="price">Price: MWK 45,000</p>
+                        <a class="button" href="cart.html">Add to Basket</a>
+                    </div>
+                </article>
             </div>
-            <div class="product">
-                <img src="coffee grinder.jpeg" alt="coffee gronder" height="300" length="200">
-            </div>
-        <img src="brewing 2.jpeg" alt="brewing equipment" height="300" length="200">
-        <h3>Coffee Grinder</h3>
-        <p>1.400.000</p>
-        <p>Grind your coffee beans before brewing for better freshness</p>
-        <h4>Usage Tips</h4>
-        <p>Adjust the grinder according to your preferred brewing method</p>
-        <button>Add to cart</button>
-        </div>
-        <div class="product">
-            <img src="french press.jpeg" alt="french press" height="300" length="200">
-            <h3>k1.300.000</h3>
-            <p>A simple and effective way to prepare great tasting coffee</p>
-            <h4>Usage Tips</h4>
-            <p>Allow the coffee to brew for about four minutes before pressing</p>
-            <button>Add to cart</button>
-        </div>
-    </div>
-    </section>
+        </section>
+    </main>
     <footer>
-        <p>&copy;2026 Bean Boutique all rights observed</p>
+        <p>&copy; 2026 Brew Haven Coffee Shop</p>
     </footer>
-            </body>
-            </html>
-        
+</body>
+</html>

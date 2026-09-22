@@ -1,55 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <body>
-        <title>
-            Bean Boutique - Events and Workshop
-        </title>
-         <link rel="stylesheet" href="style.CSS">
-        <header>
-            <h1><i class="fa-solid fa-calender-days"></i></h1>
-            <p>Lear, taste and enjoy coffee</p>
-        </header>
-        <link ref="Coffee shop">
-        <a href="home page.html">home page</a><br>
-        <a href="Coffee selection.html">Coffee selection</a><br>
-        <a href="brewing Equipment.html">brewing Equipment</a><br>
-        <a href="Shopping Cart.html">Shopping Cart</a></br>    
-    <nav>
-    <section Class="Events">
-        <h1>UPcoming Events</h1>
-        <h3>Coffee Brewing WorkShop</h3>
-        <p>Learn how to prepare delicious coffee using different brewing methods
-        </p>
-        <p><strong>Date:</strong> 13 september 2026</p>
-        <p><strong>Time:</strong> 10:30 AM</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Workshops - Brew Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Brew Haven</div>
+        <nav>
+            <ul>
+                <li><a href="home page.html">Home</a></li>
+                <li><a href="Coffee Selection.html">Coffee Selection</a></li>
+                <li><a href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+                <li><a class="active" href="events.html">Events & Workshops</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-section">
+            <h1>Events & Workshops</h1>
+            <p>Join our upcoming coffee events and workshops.</p>
+            <div class="two-column"
+            <div class="info-box">
+                <h2>Home Brewwing Basics</h2>
+                <p>Learn simple coffee brewing methods and how to choose the correct coffee grind.</p>
+                <p>
+                    <strong>Date:</strong> 15 October 2026
+                </p>
+                <p><strong>Time:</strong> 10:00 AM</p>
+                <p><strong>Location:</strong> Brew Haven Coffee Shop</p>
+            </div>
+        </div>
+        <div class="info-box">
+            <h2>Register Online</h2>
+            <form action="mailto:brewhaven@example.com" method="post" enctype="text/plain">
+                <label for="First Name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required><br><br>
+                <label for="Last Name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required><br><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="event">Select Event:</label>
+                    <select id="event" name="event">
+                        <option value="home-brewing">Home Brewing Basics</option>
+                        <option value="coffee making">Coffee making</option>
+                        <option value="coffee-tasting">Coffee Tasting Event</option>
+                        <option value="barista-training">Barista Training</option>
+                    </select>
+                    <button class="button" type="submit">Registeration</button>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+                    <label for="event">Select Event:</label>
+                    <select id="event" name="event">
+                        <option value="home-brewing">Home Brewing Basics</option>
+                        <option value="coffee making">Coffee Making</option>
+                        <option value="coffee-tasting">Coffee Tasting Event</option>
+                        <option value="barista-training">Barista Training</option>
+                    </select><br><br>
+                    <input type="submit" value="Register">
+                <p>Explore advanced brewing methods and learn how to create unique coffee flavors.</p>
+                <p><strong>Date:</strong> 22 October 2026</p>
+                <p><strong>Time:</strong> 2:00 PM</p>
+                <p><strong>Location:</strong> Brew Haven Coffee Shop</p>
+
+            <section class="event">
+                <h2>Coffee Brewing Workshop</h2>
+                <p>Learn how to prepare delicious coffee using different brewing methods.</p>
+                <p><strong>Date:</strong> 13 September 2026</p>
+                <p><strong>Time:</strong> 10:30 AM</p>
+            </section>
+
+            <section class="event">
+                <h2>Coffee Tasting Event</h2>
+                <p>Experience a variety of specialty coffees from around the world.</p>
+                <p><strong>Date:</strong> 24 October 2026</p>
+                <p><strong>Time:</strong> 2:00 PM</p>
+            </section>
+
+            <section class="event">
+                <h2>Barista Training</h2>
+                <p>Master the art of coffee making with our professional barista training program.</p>
+                <p><strong>Date:</strong> 26 October 2026</p>
+                <p><strong>Time:</strong> 9:00 AM</p>
+            </section>
+        </form>
         </section>
         <section class="event">
-            <h2>Register Online</h2>
-            <form action="mailto:be boutique@example.com" method="post" enctype="text/plain">
-                <label for="firstName=">First Name:</label>
-                <input type="text" id="firstName" name="First Name" required>
-                <label for="lastName">LastName:</label>
-                <input type="Last Name"required>
-                <label for="event">choose event:</label>
-                <select id="event" name="Event">
-                    <option>Coffee Brewing Workshop</option>
-                    <option>coffee Tasting Event</option>
-                    <option>Barista Training</option>
+            <h2>Event Gallery</h2>
+            <div class="card">
+                <img src="EVENTS 1.jpeg" alt="people testing different coffees" width="300" height="200">
+                <img src="EVENTS 3.jpeg" alt="people testing different coffees" width="300" height="200">
+                <div class="card-content">
+                    <h3>Coffee testing events</h3>
+                    <p>Explore different coffee flavours and aromas.</p>
+                </form>
+                </div>
+            </div>
         </section>
-        <button type="submit">Register Now</button>
-        <img src="EVENTS 1.jpeg" alt="events and workshop" width="300" height="200">
-        <img src="EVENTS 2.jpeg" alt="events and workshop" width="300" height="200">
-        <img src="EVENTS 3.jpeg" alt="events and workshop" width="300" height="200">
-        <p>fresh coffee. Great moments</p>
-        <p>discover amazing coffee and brewing experience</p>
-    </nav>
-        <footer>
-            <p>&copy;2026 Bean Boutique</p>
-        </footer>
-    </section>
-            </body>
-            </head>
-            </html>
-            
-        
+    </main>
+
+   <footer>
+        <p>&copy; 2026 Brew Haven Coffee Shop</p>
+    </footer>
+</body>
+</html>
+
