@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(157, 244, 25) ;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr; ifr;
+    gap:30px;
+}
