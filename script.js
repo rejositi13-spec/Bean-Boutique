@@ -1,3 +1,13 @@
+const menuToggle = document.getElementById('menu');
+const navLinks = document.getElementById('navlinks');
+
+if (menuToggle && navLinks) {
+    menuToggle.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+}
+
 document.addEventListener("DOMC ontentLoaded", function() {
     updatecartcount();
     setupSearch();
