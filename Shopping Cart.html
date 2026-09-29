@@ -15,10 +15,10 @@
             <ul class="navlinks" id="navlinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Coffee Selection.html">Coffee Selection</a></li>
-                <li><a href=" Brewing equipment.html">Brewing Equipment</a></li>
+                <li><a href="Brewing Equipment.html">Brewing Equipment</a></li>
                 <li><a href="Shopping Cart.html">Shopping Cart</a></li>
                 <li><a href="Events and Workshop.html">Events and Workshop</a></li>
-                <li><a href=" Special Offers and Subscriptions.html">Special Offers and Subscriptions</a></li>
+                <li><a href="Special Offers and Subscriptions.html">Special Offers and Subscriptions</a></li>
             </ul>
         </nav>
     </header>
@@ -27,47 +27,28 @@
             <h1>Shopping Cart</h1>
             <p>Review the products selected for your basket</p>
             <div class="cart-container">
-                <table>
+                    <table class="cart-table">
                     <thead>
                         <tr>
                             <th>Product</th>
                             <th>Quantity</th>
                             <th>Price</th>
                             <th>Total</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>Chocolate Sunrise Blend</td>
-                            <td><input type="number" value="1" min="1"></td>
-                            <td>MWK 12,000</td>
-                            <td>MWK 12,000</td>
-                        </tr>
-                        <tr>
-                            <td>Espresso intenso</td> 
-                             <td><input type="number" value="1" min="1"></td>
-                            <td>MWK 12,000</td>
-                            <td>MWK 12,000</td>
-                        </tr>
-                        <tr>
-                            <td>Mocha Delight</td>
-                             <td><input type="number" value="1" min="1"></td>
-                            <td>MWK 15,000</td>
-                            <td>MWK 15,000</td>
-                            <tr>
-                                <td>Vanilla Delight</td>
-                                 <td><input type="number" value="1" min="1"></td>
-                                <td>MWK 5,000</td>
-                                <td>MWK 5,000</td>
-                            </tr>
-                            <tr class="total">
-                                <td colspan="3">Total</td>
-                                <td>MWK 44,000</td>
-                            </tr>
-                        </tr>
+                    <tbody id="cartItems">
                     </tbody>
+                    <tfoot>
+                        <tr class="total">
+                            <th colspan="3">Total</th>
+                            <td id="cartTotal">MWK 0</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
                     </table>
                     <br>
+                    <button class="button cart-clear" id="cartClear" type="button">Clear Cart</button>
                     <a class="button" href="Coffee Selection.html">Continue Shopping</a>
             </div>
         </section>
