@@ -172,6 +172,10 @@ function setupSearch() {
             const searchText = searchInput.value.toLowerCase().trim();
             document.querySelectorAll("main .card").forEach(function (product) {
                 product.hidden = !product.textContent.toLowerCase().includes(searchText);
+            });
+        });
+    });
+}
             
 function setupRegistrationForm() {
     const registrationForm = document.getElementById("registrationForm");
